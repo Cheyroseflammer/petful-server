@@ -1,0 +1,19 @@
+{
+  "name": "petful-server",
+  "scripts": {
+    "dev": "nodemon server",
+    "deploy": "git push heroku main"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "heroku": "^7.47.11",
+    "knex": "^0.20.10",
+    "pg": "^7.18.2"
+  },
+  "keywords": [],
+  "engines": {
+    "node": "14.15.1"
+  }
+}
