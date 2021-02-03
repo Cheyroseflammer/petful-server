@@ -39,13 +39,13 @@ GET - Will retrieve the next pets (both dog and cat) in the queue.
 DELETE - Will remove the person at the top of the queue, and the pet of the chosen type. This function is used to remove a person and pet from the queue once they've been matched.
 ```
 
-### pets/cat
+### /pets/cat
 
 ```
 GET - Will retrieve the next cat in the queue.
 ```
 
-### pets/dog
+### /pets/dog
 
 ```
 GET - Will retrieve the next dog in the queue.
